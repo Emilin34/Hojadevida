@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	fant-family: Arial, Helvetica, sans-serif ;
+}
+
+.content{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.clearfix{
+	clear: both;
+	float: none;
+}
+
+header{
+	width: 100%;
+	background: skyblue;
+	height: 100px;
+
+}
+
+header img{
+	float: left;
+	height: 80px;
+	width: auto;
+}
+
+nav {
+	float: right
+}
+
+nav a{
+	padding:  10px 20px;
+	color: white;
+	text-decoration: none;
+	line-height: 50px;
+	font-weight: bold;
+	border-radius: 5px;
+
+	transition: all 1s;
+}
+
+nav a:hover{
+	background: white;
+	color: skyblue;
+}
+
+.half{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.half img{
+	width: 100%;
+	height: auto;
+}
+
+.half h1{
+	margin-top: 300px;
+	line-height: 70px;
+}
+
+.descripcionPetco{
+	width: 100%;
+	background:  gray;
+	padding: 70px 0;
+	text-align: center;
+}
+
+.descripcionPetco h1{
+	line-height: 70px;
+}
+
+.descripcionPetco h3{
+	line-height: 50px;
+}
+
+.descripcionPetco p{
+	line-height: 30px;
+}
+
+.servicios{
+	width: 600px;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.servicios li{
+	float: left;
+	width: 100px;
+	height: 200px;
+	text-align: center;
+	background: skyblue;
+	color: white;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+.servicios li img{
+	height: 70px;
+	width: auto;
+	margin: 20px auto;
+	display: block;
+}
+ 
+footer{
+	width: 100%;
+	background: gray;
+	padding: 40px 0;
+	text-align: center;
+} 
